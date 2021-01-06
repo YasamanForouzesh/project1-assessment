@@ -1,0 +1,9 @@
+#action{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+#number{
+    border-radius: 20px;
+}
