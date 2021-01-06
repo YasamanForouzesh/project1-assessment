@@ -1,9 +1,24 @@
 #action{
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: row;
 }
+main{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 #number{
     border-radius: 20px;
+    text-align: center;
+    width: 50px;
+    padding: 10px;
+}
+#showResult{
+    align-self: center;
+}
+button{
+    border-radius: 10px;
+    padding: 10px;
 }

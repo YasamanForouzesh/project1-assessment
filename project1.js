@@ -26,9 +26,10 @@ document.addEventListener("DOMContentLoaded",()=>{
         if(sum<0){
 
             textResult.style.color="red"
+        }else{
+            textResult.style.color="black"
+
         }
     }
-    buttonPluss.addEventListener("mouseover", ()=>{
-        buttonPluss.style.backgroundColor="gray"
-    });
+  
 })
