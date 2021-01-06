@@ -31,5 +31,24 @@ document.addEventListener("DOMContentLoaded",()=>{
 
         }
     }
+    buttonPluss.addEventListener('mouseover',()=>{
+        mouseOverAction(buttonPluss)
+    })
+    buttonPluss.addEventListener('mouseout',()=>{
+        mouseOutAction(buttonPluss)
+    })
+    buttonSubtract.addEventListener('mouseover',()=>{
+        mouseOverAction(buttonSubtract)
+    })
+    buttonSubtract.addEventListener('mouseout',()=>{
+        mouseOutAction(buttonSubtract)
+    })
+    let mouseOverAction=(buttonObject)=>{
+        buttonObject.style.backgroundColor="gray"
+    }
+    let mouseOutAction=(buttonObject)=>{
+        buttonObject.style.backgroundColor=null
+
+    }
   
 })
